@@ -2,7 +2,7 @@ highlighter: rouge
 markdown: kramdown
 rdiscount:
   extensions: [smart]
-#permalink: :title.html
+permalink: :title.html
 paginate: 5
 plugins: [jekyll-paginate]
 port: 4000
@@ -14,23 +14,26 @@ author: Fábio Madeira
 # jekyller.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
 baseurl: /
-title: Chris Turner's Resume
-name: Cheng-Hao Ho 
+title: CHENG-HAO's Site 
+name: C.H. HO 
+first_name: CHENG-HAO 
+sur_name: HO 
 email: jojotenya@gamil.com
 email_full: mailto:jojotenya@gamil.com
-website: github.io
+website: jojoteny.github.io
 website_full: https://jojotenya.github.io
-github: trending
-twitter: twitter
-tel: +44 0000 000000
-tel_full: tel:+440000000000
-google_maps: 'https://www.google.com/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
-address:
-  street: 44 Perth Street
-  postcode: EH3 5BL
-  city: Edinburgh
-  country: United Kingdom
-google_analytics: UA-69300817-1
+github: jojotenya 
+linkedin: chho 
+#twitter: twitter
+tel: +886 955 556995 
+tel_full: tel:+886955556995
+#google_maps: 'https://www.google.com/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
+#address:
+#  street: 44 Perth Street
+#  postcode: EH3 5BL
+#  city: Edinburgh
+#  country: United Kingdom
+#google_analytics: UA-69300817-1
 
 # needed for travis-ci build
 exclude: [vendor]

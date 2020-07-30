@@ -5,8 +5,10 @@ body {
     font-size: 15px;
     line-height: 21px;
     color: rgb(48, 48, 48);
-    border-top: 5px solid #27a822;
-    border-bottom: 5px solid #27A822;
+    /*border-top: 5px solid #27a822;
+    border-bottom: 5px solid #27A822;*/
+    border-top: 5px solid #b3b300;
+    border-bottom: 5px solid #b3b300;
 }
 
 .container {
@@ -40,12 +42,14 @@ p, address {
 }
 
 header > h1, section > h1 {
-    color: #27A822;
+    /*color: #27A822;*/
+    color: #cccc00;
 }
 
 header > h1 {
     line-height: 100%;
-    font-size: 250%;
+    /*font-size: 250%;*/
+    font-size: 170%;
     margin-bottom: 20px;
 }
 
