@@ -1,0 +1,25 @@
+<section class="thirteen columns">
+    <h1>Publications</h1>
+    <article>
+        <header>
+            <h1><a href="https://openreview.net/forum?id=Skgxcn4YDS">LAMOL: LAnguage MOdeling for Lifelong Language Learning</a></h1>
+        </header>
+        <p class="describ">Most research on lifelong learning applies to images or games, but not language.
+We present LAMOL, a simple yet effective method for lifelong language learning (LLL) based on language modeling.
+LAMOL replays pseudo-samples of previous tasks while requiring no extra memory or model capacity.
+Specifically, LAMOL is a language model that simultaneously learns to solve the tasks and generate training samples.
+When the model is trained for a new task, it generates pseudo-samples of previous tasks for training alongside data for the new task.
+The results show that LAMOL prevents catastrophic forgetting without any sign of intransigence and can perform five very different language tasks sequentially with only one model. 
+Overall, LAMOL outperforms previous methods by a considerable margin and is only 2-3% worse than multitasking, which is usually considered the LLL upper bound.
+The source code is available at <a style="color:#3b89ff" href="https://github.com/jojotenya/LAMOL">https://github.com/jojotenya/LAMOL</a>.</p>
+        <img style="width:650px; height:365px;" src="{{ site.baseurl }}static/img/small_perm.png">
+    </article>
+    <article>
+        <header>
+            <h1><a href="https://arxiv.org/abs/2007.07196">Investigation of Sentiment Controllable Chatbot
+</a></h1>
+        </header>
+        <p class="describ">Conventional seq2seq chatbot models attempt only to find sentences with the highest probabilities conditioned on the input sequences, without considering the sentiment of the output sentences. In this paper, we investigate four models to scale or adjust the sentiment of the chatbot response: a persona-based model, reinforcement learning, a plug and play model, and CycleGAN, all based on the  seq2seq model. We also develop machine-evaluated metrics to estimate whether the responses are reasonable given the input. These metrics, together with human evaluation, are used to analyze the performance of the four models in terms of different aspects;  reinforcement learning and CycleGAN are shown to be very attractive.</p>
+        <img style="height:300px; display:flex; justify-content:center; align-items:center;" src="{{ site.baseurl }}static/img/cycleGAN.png">
+    </article>
+</section>
