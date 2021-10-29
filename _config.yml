@@ -7,7 +7,7 @@ paginate: 5
 plugins: [jekyll-paginate]
 port: 4000
 safe: true
-url: http://jojotenya.github.io
+url: http://chho33.github.io
 author: Fábio Madeira
 
 # edit this section with your information
@@ -18,16 +18,16 @@ title: CHENG-HAO's Site
 name: C.H. HO 
 first_name: CHENG-HAO 
 sur_name: HO 
-email: jojotenya@gamil.com
-email_full: mailto:jojotenya@gamil.com
-website: jojoteny.github.io
-website_full: https://jojotenya.github.io
+email: ch3561@columbia.edu
+email_full: mailto:ch3561@columbia.edu
+website: chho33.github.io
+website_full: https://chho33.github.io
 mysite: nateho.site
-github: jojotenya 
+github: chho33 
 linkedin: chho 
 #twitter: twitter
-tel: +886 955 556995 
-tel_full: tel:+886955556995
+tel: +1(401)362-9748
+tel_full: tel:+1(401)362-9748
 #google_maps: 'https://www.google.com/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
 #address:
 #  street: 44 Perth Street
